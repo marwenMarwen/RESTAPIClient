@@ -1,0 +1,7 @@
+C:\Users\Marwen\source\repos\RestWebServiceCustomer\RestCall\bin\Debug\RestCall.exe.config
+C:\Users\Marwen\source\repos\RestWebServiceCustomer\RestCall\bin\Debug\RestCall.exe
+C:\Users\Marwen\source\repos\RestWebServiceCustomer\RestCall\bin\Debug\RestCall.pdb
+C:\Users\Marwen\source\repos\RestWebServiceCustomer\RestCall\obj\Debug\RestCall.csproj.CoreCompileInputs.cache
+C:\Users\Marwen\source\repos\RestWebServiceCustomer\RestCall\obj\Debug\RestCall.exe
+C:\Users\Marwen\source\repos\RestWebServiceCustomer\RestCall\obj\Debug\RestCall.pdb
+C:\Users\Marwen\source\repos\RestWebServiceCustomer\RestCall\obj\Debug\RestCall.csprojResolveAssemblyReference.cache
