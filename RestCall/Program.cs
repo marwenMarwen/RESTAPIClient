@@ -29,7 +29,7 @@ namespace RestCall
 
         static void GetAllDepartment()
         {
-            var httpManeger = new HttpManager();
+            var httpManeger = new CustomHttpClient();
             var departments = httpManeger.GetDepartement();
 
             foreach (var department in departments)
@@ -40,7 +40,7 @@ namespace RestCall
 
         static void GetDepartmentById(int departmentId)
         {
-            var httpManeger = new HttpManager();
+            var httpManeger = new CustomHttpClient();
             var department = httpManeger.GetDepartementById(departmentId);
 
             Console.WriteLine("Id: " + department.DepartmentId);
@@ -50,7 +50,7 @@ namespace RestCall
 
         static void AddDepartment()
         {
-            var httpManeger = new HttpManager();
+            var httpManeger = new CustomHttpClient();
 
             bool result = httpManeger.PostData().Result;
 
@@ -60,7 +60,7 @@ namespace RestCall
 
         static void DeleteDepartment(int departmentID)
         {
-            var httpManeger = new HttpManager();
+            var httpManeger = new CustomHttpClient();
             bool result = httpManeger.DeleteElement(departmentID).Result;
 
             string Message = result ? "L'opération s'est exécuté avec succès" : "L'opération a échoué";
@@ -69,7 +69,7 @@ namespace RestCall
 
         static void UpdateDepartment(short DepartmentId)
         {
-            var httpManeger = new HttpManager();
+            var httpManeger = new CustomHttpClient();
             bool result = httpManeger.UpdateDepartment(DepartmentId).Result;
 
             string Message = result ? "L'opération s'est exécuté avec succès" : "L'opération a échoué";

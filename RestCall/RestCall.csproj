@@ -42,7 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="HttpCustomer\HttpManager.cs" />
+    <Compile Include="HttpCustomer\CustomHttpClient.cs" />
     <Compile Include="Models\Departement.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
